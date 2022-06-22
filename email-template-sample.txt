@@ -1,0 +1,8 @@
+Hello,
+
+Thank you for your order. Use these links to retrieve your tickets:
+<links>
+
+Tickets can be printed or shown on your phone on location.
+
+Thanks again,
