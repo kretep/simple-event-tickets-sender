@@ -1,12 +1,15 @@
-
-# JD ticket master
+# Simple Event Tickets Sender
 Emails event tickets to customers after placing a WooCommerce order.
 
 ## Description
-JD ticket master is a Nodejs application that queries the WooCommerce API of a Wordpress website for placed orders, generates a unique code for one or multiple tickets, adds corresponding entries to the ticket database (graphql) and sends emails to the customers with the link to their tickets.
+ Simple Event Tickets Sender is a Nodejs application that queries the WooCommerce API of a Wordpress website for placed orders, generates a unique code for one or multiple tickets, adds corresponding entries to the ticket database (graphql) and sends emails to the customers with the link to their tickets.
+
+## Example deployment overview
+
+![example deployment overview](images/deployment.png)
 
 ## Prerequisites
-This application works together with the jd-tickets application. Go there for more information about the application and configuration of the Hasura database.
+This application works together with the [Simple Event Tickets](https://github.com/kretep/simple-event-tickets) application. Go there for more information about the application and configuration of the Hasura database.
 
 ## Installation
 Run the following in the project root:
@@ -33,7 +36,7 @@ SMTP_PASSWORD=
 SENDER_EMAIL=<email where the customer can reach you>
 ```
 
-**Ticket database **
+**Ticket database**
 
 See jd-tickets repository for configuring the ticket database.
 ```
