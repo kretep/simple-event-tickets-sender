@@ -4,7 +4,7 @@ import { createTicket } from './create-ticket.js';
 import { getOrders } from './get-orders.js';
 import { sendEmail } from './send-ticket.js';
 
-const emailTemplate = fs.readFileSync('./email-template.txt', 'utf8');
+const emailTemplate = fs.readFileSync('templates/email-template.txt', 'utf8');
 
 const execute = async () => {
   const orders = await getOrders(); 

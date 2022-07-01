@@ -38,7 +38,7 @@ SENDER_EMAIL=<email where the customer can reach you>
 
 **Ticket database**
 
-See jd-tickets repository for configuring the ticket database.
+See [Simple Event Tickets](https://github.com/kretep/simple-event-tickets) for configuring the ticket database.
 ```
 GRAPHQL_URL=<graphql endpoint>
 HASURA_SELLER_TOKEN=<JWT for seller role>
